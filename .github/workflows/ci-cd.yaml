@@ -25,7 +25,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t ghcr.io/ArisOIKON/echo-api:latest .
+        run: docker build -t ghcr.io/arisoikon/echo-api:latest .
 
       - name: Push Docker image
-        run: docker push ghcr.io/ArisOIKON/echo-api:latest
+        run: docker push ghcr.io/arisoikon/echo-api:latest
