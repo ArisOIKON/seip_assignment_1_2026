@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: echo-api-config
 data:
-  WELCOME_MESSAGE: "Welcome to the Software Engineering in Practice Assignment Cluster!"
+  WELCOME_MESSAGE: "Don't look for something plain truth is nothing, nothing but the plain truth"
   NODE_ENV: "production"
